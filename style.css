@@ -1,0 +1,39 @@
+.name {
+    text-align:center;
+    background-color:#f5c7f7;
+    color: white;
+    padding: 1rem;
+    margin: 20px 400px;
+    width: 20em;
+}
+body {
+    background: radial-gradient(circle at 10% 20%, rgb(239, 246, 249) 0%, rgb(206, 239, 253) 90%);
+}
+.pic {
+    width: 10em;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.portfolio {
+    text-align:center;
+    background-color:#86f3b8;
+    color: white;
+    padding: 1rem;
+    margin: 20px 400px;
+    width: 20em;
+    border-radius: 10px;
+}
+
+.me {
+    text-align:center;
+    background-color:#f7f680;
+    color: black;
+    padding: 1rem;
+    margin: 20px 400px;
+    width: 20em; 
+    border-radius: 10px;
+}
