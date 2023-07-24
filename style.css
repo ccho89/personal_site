@@ -1,39 +1,68 @@
+/*This is for homepage, index.html*/
+.mainpage {
+    background: #f7f7f7;
+    background-image: url("../images/koreanwallpaper.jpg"); /*the ../images/ is bc the file is in another folder within the personal site folder*/
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
 .name {
-    text-align:center;
-    background-color:#f5c7f7;
-    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
     padding: 1rem;
     margin: 20px 400px;
-    width: 20em;
+    font-size: 60px;
+    color: white;
 }
-body {
-    background: radial-gradient(circle at 10% 20%, rgb(239, 246, 249) 0%, rgb(206, 239, 253) 90%);
-}
-.pic {
-    width: 10em;
-}
+
 nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
+    padding: 2rem;
+    font-size: 20px;
 }
-
-
-.portfolio {
-    text-align:center;
-    background-color:#86f3b8;
+nav > a {
     color: white;
+    text-decoration: underline;
+    font-size: 25px;
+}
+p {
+    font-size: 20px;
+}
+/*This is for portfolio tab*/
+.portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#f5c7f7;
+    color:black;
     padding: 1rem;
     margin: 20px 400px;
-    width: 20em;
     border-radius: 10px;
 }
 
+/*This is for about me tab*/
 .me {
-    text-align:center;
-    background-color:#f7f680;
     color: black;
-    padding: 1rem;
-    margin: 20px 400px;
-    width: 20em; 
+    padding: 1rem; 
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 400px;
 }
+.interests {
+    display: flex;
+    flex-direction: column;
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+}
+.about {
+    background-image: url("../images/cyberpunk.jpg");
+    min-height: 100%;
+    min-width: 1024px;
+
+
